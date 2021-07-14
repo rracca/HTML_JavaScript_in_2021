@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+    </head>
+    <body>
+        <form>
+            <!-- type="email" is another type that can be used -->
+            Username <input type="text" name="username" required><br>
+            Password <input type="password" name="password" required><br>
+            Confirm Password <input type="password" name="confirmpassword" minlength="7" required><br>
+
+            Birthdate <input type="date" name="birthdate"><br>
+            Gender <br>
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female<br>
+            <input type="radio" name="gender">Other<br>
+            
+            <input type="checkbox" name="terms"> Do you agree with the terms and conditions? <br>
+            <select>
+                <option value="Send me updates via email">Send me updates via email.</option>
+                <option value="Don't send me newsletter">Don't send me newsletter</option>
+            </select>
+            <br>
+            <input type="submit" value="Register">&nbsp;
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
